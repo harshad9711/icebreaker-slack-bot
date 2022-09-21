@@ -1,0 +1,23 @@
+{
+  "name": "icebreaker-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.1",
+    "he": "^1.2.0",
+    "node-fetch": "^3.2.10",
+    "node-schedule": "^2.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
